@@ -1,25 +1,60 @@
 # 1. Išveskite visus skaičius nuo 1 iki 20.
+# su for
+# for i in range(1, 21):
+#     print(i)
+from turtle import TurtleGraphicsError
 
+# su while
+# skaicius = 0
+# while skaicius < 21:
+#     print(skaicius)
+#     skaicius += 1
 
 
 # 2. Išveskite visus skaičius nuo 1 iki 50. Prie kiekvieno lyginio skaičiaus
 # parašykite žodį "lyginis", o prie kiekvieno nelyginio – "nelyginis".
+
+# skaicius = 1
+# while skaicius <= 50:
+#     if skaicius % 2 == 0:
+#         print(f"{skaicius} - lyginis")
+#     else:
+#         print(f"{skaicius} - nelyginis")
+#     skaicius += 1
 
 
 
 # 3. Išveskite visus skaičius nuo 25 iki 50. Vietoj skaičių, kurie dalinasi iš 3
 # išveskite tekstą "dalinasi iš 3".
 
+# skaicius = 25
+# while skaicius < 50:
+#     if skaicius % 3 == 0:
+#         print(f" {skaicius} dalinasi is 3")
+#     skaicius += 1
 
 
 # 4. Išveskite visus skaičius nuo 1 iki 100 arba iki tol kol pasitaikys toks, kuris
 # dalinasi iš 7.
 
-
+# skaicius = 1
+# while skaicius < 100:
+#     if skaicius % 7 == 0:
+#         print(f"{skaicius} dalinasi is 7")
+#         break
+#     print(skaicius)
+#     skaicius += 1
 
 # 5. Išvedinėkite visus skaičius nuo 1 iki tol kol pasitaikys skaičius, kuris
 # dalinasi iš 3 ir iš 5.
 
+# skaicius = 1
+# while True:
+#     if skaicius % 3 ==0 and skaicius % 5 == 0:
+#         print(f"{skaicius} = dalinasi is 3 ir is 5 ")
+#         break
+#     print(skaicius)
+#     skaicius += 1
 
 # 6. Vartotojas turi suvesti rėžių pradžią ir pabaigą. Tačiau jūs turite patikrinti
 # ar nurodyti rėžiai yra geri (pradžia mažesnė už pabaigą). Liepkite
@@ -29,16 +64,35 @@
 # išvedant jo kvadratą, bei ar jis lyginis/nelyginis.
 
 
+# a = int(input("Iveskite reziu pradzios skaiciu\n"))
+# b = int(input("Iveskite reziu pabaigos skaiciu\n"))
+# while True:
+#     if a < b:
+#         break
+#     else:
+#         print("Reziai nera teisingi, bandykite dar karta, (pirmas rezis turi buti mazesnis uz antraji)")
+# for i in range(a, b + 1):
+#     kv = i ** 2
+#     lyg = "lyginis" if i % 2 == 0 else "nelyginis"
+#     print(f"{i} - kvadratas: {kv}, skaiciaus tipas: {lyg}")
 
 
-# 7. Išveskite visus skaičius nuo 1 iki kol pasitaikys toks, kuris yra pirminis ir
-# yra didesnis nei 20.
+# 7. Išveskite visus skaičius nuo 1 iki kol pasitaikys toks, kuris yra pirminis ir yra didesnis nei 20.
 
-
+# skaicius = 1
+# while True:
+#     if skaicius > 20:
+#         print(f"{skaicius} > 20 del to yra isvestas")
+#         break
+#     print(skaicius)
+#     skaicius += 1
 
 
 # 8. Liepkite vartotojui įvedinėti bet kokius skaičius. Vykdykite įvedinėjimą iki
 # kol įvestas skaičius bus lygus 0. Raskite įvestų skaičių sumą.
+
+
+
 
 
 
