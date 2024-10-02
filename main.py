@@ -90,8 +90,14 @@ from turtle import TurtleGraphicsError
 
 # 8. Liepkite vartotojui įvedinėti bet kokius skaičius. Vykdykite įvedinėjimą iki
 # kol įvestas skaičius bus lygus 0. Raskite įvestų skaičių sumą.
-
-
+suma = 0
+# while True:
+#     skaicius = int(input("Iveskite norima skaiciu "))
+#     if skaicius == 0:
+#         break
+#     print(f"Ivestas skaicius {skaicius} nelygus 0")
+#     suma += skaicius
+# print(f"Is viso ivestu skaiciu suma: {suma}")
 
 
 
