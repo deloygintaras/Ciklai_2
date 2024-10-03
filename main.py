@@ -87,10 +87,23 @@ from turtle import TurtleGraphicsError
 #     print(skaicius)
 #     skaicius += 1
 
+# skaicius = 1
+# while True:
+#     skaicius += 1
+#     print(skaicius)
+#     if skaicius > 20:
+#         isPrime = True
+#         for i in range(2, skaicius - 1):
+#             if skaicius % i == 0:
+#                 isPrime = False
+#         if isPrime:
+#             break
+
+
 
 # 8. Liepkite vartotojui įvedinėti bet kokius skaičius. Vykdykite įvedinėjimą iki
 # kol įvestas skaičius bus lygus 0. Raskite įvestų skaičių sumą.
-suma = 0
+# suma = 0
 # while True:
 #     skaicius = int(input("Iveskite norima skaiciu "))
 #     if skaicius == 0:
@@ -110,8 +123,21 @@ suma = 0
 # leiskite pasirinkti ar dar kartoti veiksmą, ar jau programa turėtų baigti
 # savo darbą.
 
-
-
+# while True:
+#     a = int(input("Iveskite pirmaji norima skaiciu: "))
+#     b = int(input("Iveskite antraji norima skaiciu: "))
+#     print(f"Nr. 1 pasirinktas skaicius - {a}")
+#     print(f"Nr. 2 pasirinktas skaicius - {b}")
+#     sud = (a + b)
+#     at = (a - b)
+#     daug = (a * b)
+#     dalyba = (a / b)
+#     print(f"Veiksmai su siais skaiciais:\nSudetis: {a} + {b} = {sud}\nAtimtis: {a} - {b} = {at}\nDaugyba: {a} * {b} = {daug}\nDalyba: {a} / {b} = {round(dalyba, 2)}")
+#     kartoti = input("Ar norite kartoti skaiciavimus ? (t/n): ")
+#     if kartoti != 't':
+#         print("daugiau nekartojama")
+#         break
+# print("The End")
 
 
 # 10.Vartotojui išveskite pasirinkto skaičiaus daugybos lentelę (pvz, skaičiaus 5
@@ -119,13 +145,28 @@ suma = 0
 # vartotojui kartoti veiksmą (tiek kartų kiek norės) ir gauti dar vieną
 # daugybos lentelę su kitu pasirinktu skaičiumi.
 
-
+# while True:
+#     sk = int(input("Iveskite norima skaiciu - bus isvesta skaiciaus daugybos lentele "))
+#     for i in range(1, 11):
+#         print(f"{sk} * {i} = {sk * i}")
+#     kartoti = input("Ar norite kartoti - (t/n)? ")
+#     if kartoti != 't':
+#         print("Nebekartojame")
+#         break
 
 # 11.Liepkite vartotojui įvesti kiek jis nori skaičių. Įvedimą sustabdykite tuomet,
 # kai vartototojas įves 0 ar -1, ar kitą jūsų pasirinktą skaičių ar simbolį.
 # Raskite vartotojo įvestų skaičių sumą, vidurkį.
-
-
+# skaiciai = []
+# while True:
+#     ivedimas = int(input("Iveskite skaiciu: (0 ar -1 stabdys programa) "))
+#     if ivedimas == 0 or ivedimas == -1:
+#         break
+#     skaiciai.append(ivedimas)
+#     kartoti = input("Ar norite kartoti - (t/n) ")
+#     if kartoti != 't':
+#         print(skaiciai)
+#         print(f"suma: {sum(skaiciai)}, vidurkis: {sum(skaiciai) / len(skaiciai)}")
 
 
 # 12.Sukurkite studentų pažymių vidurkių skaičiuoklę (kaip pavyzdį galite
