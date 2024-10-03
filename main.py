@@ -2,6 +2,7 @@
 # su for
 # for i in range(1, 21):
 #     print(i)
+import random
 from turtle import TurtleGraphicsError
 
 # su while
@@ -200,3 +201,19 @@ from turtle import TurtleGraphicsError
 # kad vartotojas pasirinko parametrus tik iš galimų - jeigu ne, liepkite
 # įvedimą pakartoti.
 
+# slaptas = random.randint(1, 10)
+# spejimasOld = 0
+#
+# while True:
+#     spejimas = int(input("Spekite skaiciu tarp 1 ir 10 : arba (0) jei norite pagalbos "))
+#     if spejimas == 0:
+#         if slaptas > spejimasOld:
+#             print(f"Jusu spejimas {spejimasOld}. Bandykite didesni")
+#         elif slaptas < spejimasOld:
+#             print(f"Jusu spejimas {spejimasOld}. Bandykite mazesni")
+#     elif slaptas != spejimas:
+#         print("Deja nepavyko. Bandykite dar karta")
+#         spejimasOld = int(spejimas)
+#     else:
+#         print("Atspejote!")
+#         break
