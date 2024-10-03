@@ -174,6 +174,21 @@ from turtle import TurtleGraphicsError
 # vidurkį ne tik iš vieno studento pažymių, bet leistų pakartoti pažymių
 # įvedimą ir vidurkio skaičiavimą ant tiek studentų kiek reikia.
 
+# skaiciai = []
+# while True:
+#     sk = int(input("Iveskite skaicius vidurkiui apskaiciuoti: (0 - skaiciuoja nauja vidurki, -1 stabdys programa) "))
+#     if sk == 0:
+#         if len(skaiciai) != 0:
+#             print(f"{skaiciai}, vidurkis: {sum(skaiciai) / len(skaiciai)}")
+#             skaiciai = []
+#         else:
+#             print(0)
+#         continue
+#     elif sk == -1:
+#
+#         print(f"{skaiciai}, vidurkis: {sum(skaiciai) / len(skaiciai)}")
+#         break
+#     skaiciai.append(sk)
 
 
 
@@ -184,3 +199,4 @@ from turtle import TurtleGraphicsError
 # Vartotojas šiuos parametrus pasirenka žaidimo pradžioje. Turite užtikrinti,
 # kad vartotojas pasirinko parametrus tik iš galimų - jeigu ne, liepkite
 # įvedimą pakartoti.
+
